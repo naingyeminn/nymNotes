@@ -10,7 +10,7 @@ $ var="Hello"
 $ echo $var
 Hello
 ```
-အဆိုပါဥပမာရှိ　line တစ်ခုဆီ၏　ရှေ့တွင်တွေ့ရသော　`$` သည်　Command Prompt ကိုဆိုလိုခြင်းဖြစ်ပြီး　ဒုတိယ　line တွင်ပြထားသော　$var သည်　shell variable ကိုဆိုလိုခြင်းဖြစ်သည်။
+အဆိုပါဥပမာရှိ　line တစ်ခုချင်း၏　ရှေ့တွင်တွေ့ရသော　`$` သည်　Command Prompt ကိုဆိုလိုခြင်းဖြစ်ပြီး　ဒုတိယ　line တွင်ပြထားသော　$var သည်　shell variable ကိုဆိုလိုခြင်းဖြစ်သည်။
 
 ---
 ###`#`
@@ -57,7 +57,7 @@ Command များသည်　အများအားဖြင့်　အေ
 ```sh
 $ wget -O skype-ubuntu-current_i386.deb http://www.skype.com/go/getskype-linux-beta-ubuntu-32
 ```
-အဆိုပါစာကြောင်းတွင် `wget` သည် Internet ရှိ File များအား terminal မှတဆင့် Download ပြုလုပ်ရာတွင်သုံးသော command တစ်ခုဖြစ်သည်။　`-O` သည်　command ၏　Option ဖြစ်သည်။ Download ဆွဲလိုက်သော file အား နာမည်တစ်ခုဖြင့် ပြောင်းလဲစေလိုလျှင်သုံးပါသည်။ `-O` နောက်တွင်ရှိသော `skype-ubuntu-current_i386.deb` သည် ပြောင်းလဲလိုသော File နာမည်ဖြစ်ပြီး ၄င်း၏နောက်ရှိ `http://www.skype.com/go/getskype-linux-beta-ubuntu-32` သည် Download ပြုလုပ်မည့် File ရှိရာလမ်းကြောင်း (Link) ဖြစ်သည်။ ထို အစိတ်အပိုင်းတစ်ခုဆီ၏ ကြားတွင် Space ခြားထားသည်ကို သတိပြုရန်လိုအပ်သည်။
+အဆိုပါစာကြောင်းတွင် `wget` သည် Internet ရှိ File များအား terminal မှတဆင့် Download ပြုလုပ်ရာတွင်သုံးသော command တစ်ခုဖြစ်သည်။　`-O` သည်　command ၏　Option ဖြစ်သည်။ Download ဆွဲလိုက်သော file အား နာမည်တစ်ခုဖြင့် ပြောင်းလဲစေလိုလျှင်သုံးပါသည်။ `-O` နောက်တွင်ရှိသော `skype-ubuntu-current_i386.deb` သည် ပြောင်းလဲလိုသော File နာမည်ဖြစ်ပြီး ၄င်း၏နောက်ရှိ `http://www.skype.com/go/getskype-linux-beta-ubuntu-32` သည် Download ပြုလုပ်မည့် File ရှိရာလမ်းကြောင်း (Link) ဖြစ်သည်။ ထို အစိတ်အပိုင်းတစ်ခုစီ၏ ကြားတွင် Space ခြားထားသည်ကို သတိပြုရန်လိုအပ်သည်။
 
 "wget```space```-O```space```skype-ubuntu-current_i386.deb```space```http://www.skype.com/go/getskype-linux-beta-ubuntu-32"
 
